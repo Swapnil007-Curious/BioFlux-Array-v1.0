@@ -1,4 +1,31 @@
 # BioFlux-Array-v1.0
-BioFlux Array is a wearable energy-harvesting prototype that converts the repetitive mechanical energy of walking, running, and jumping into usable electrical energy. The core concept places a compact electromagnetic kinetic generator inside the heel region of each shoe. Each shoe functions as a fully independent energy node — its own harvester, its own power conditioning circuit, its own storage system, and its own ESP32-S3 microcontroller with BLE and Wi-Fi wireless transmission. There is no connection between the two shoes. The left shoe operates as BioFlux-L and the right shoe as BioFlux-R, each broadcasting real-time energy data to a phone or browser dashboard simultaneously.
-The system is designed as a wearable microgrid — not simply a generator attached to a battery. Each node harvests energy, conditions it, stores it in a hybrid supercapacitor-plus-lithium-ion architecture, regulates it to a clean 3.3V rail, and then uses that rail to power a sensing and telemetry layer that measures and broadcasts exactly what the system is doing in real time. This makes the project educational, physically demonstrable, and analytically rigorous — the supercapacitor charging curve alone constitutes hard physical proof of energy harvesting that cannot be faked.
 
+
+BioFlux Array is a wearable energy-harvesting system that converts mechanical energy from walking, running, and jumping into usable electrical power.
+
+The system uses a heel-mounted electromagnetic generator connected to a hybrid energy storage system consisting of a supercapacitor and lithium-ion battery. An ESP32-S3 microcontroller monitors energy generation and transmits real-time telemetry data via BLE to a mobile dashboard.
+
+## Features
+
+- Electromagnetic heel generator
+- Rack-and-pinion motion conversion
+- Hybrid energy storage (supercapacitor + Li-ion)
+- Real-time energy monitoring
+- BLE telemetry
+- Mobile dashboard for power analytics
+
+## Project Goals
+The goal of BioFlux Array is to demonstrate a practical wearable energy microgrid capable of harvesting energy from everyday human movement.
+
+## Hardware Stack
+
+- ESP32-S3-WROOM-1
+- Supercapacitor storage
+- Li-ion battery
+- TP4056 charging module
+- Bridge rectifier
+- INA219 current monitor
+- Custom 2-layer PCB
+
+## Status
+Prototype design completed. Hardware build planned.
