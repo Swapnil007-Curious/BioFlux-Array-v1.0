@@ -1,4 +1,5 @@
-# BioFlux-Array-v1.0
+# BioFlux-Array-v1.0 <img width="1024" height="559" alt="image" src="https://github.com/user-attachments/assets/af89677f-9613-4c04-a7ac-9ea382c6fe29" />
+
 
 
 BioFlux Array is a wearable energy-harvesting system that converts mechanical energy from walking, running, and jumping into usable electrical power.
@@ -29,3 +30,4 @@ The goal of BioFlux Array is to demonstrate a practical wearable energy microgri
 
 ## Status
 Prototype design completed. Hardware build planned.
+<img width="1408" height="768" alt="image" src="https://github.com/user-attachments/assets/825b8ac8-ca9a-433b-b58b-3acab6d03bf7" />
